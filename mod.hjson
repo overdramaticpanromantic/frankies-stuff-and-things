@@ -1,0 +1,21 @@
+{
+    displayName : "Frankie's Stuff and Things"
+    repo : overdramaticpanromantic/frankies-stuff-and-things
+    name : fsat
+
+    author:
+        '''
+        Developers:
+        - Code: overdramaticpanromantic & Fresh791
+        - Sprites: overdramaticpanromantic & Fresh791
+        '''
+
+    description:
+        '''
+        A variety of new content. A sort of testing mod for me. Not meant to be balanced!
+        '''
+
+    subtitle: "Not meant to be balanced!"
+    minGameVersion : 145
+    version : "1.0"
+}
