@@ -1,2 +1,12 @@
 name: Pipe Bomb Deployer
 description: Deploys explosives on to enemy supply lines. Place facing a conveyor.
+size: 3
+health: 1100
+type: ItemTurret
+reload: 300
+range: 20
+rotateSpeed: 0
+recoil: 0
+category: turret
+shootY: 20
+shootSound: bomb-deploy
