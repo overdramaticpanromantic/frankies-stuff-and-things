@@ -1,12 +1,38 @@
 name: Pipe Bomb Deployer
-description: Deploys explosives on to enemy supply lines. Place facing a conveyor.
+description: Deploys explosives on to enemy supply lines. Place facing a conveyor. Pipe bombs are defused after one minute.
 size: 3
 health: 1100
 type: ItemTurret
 reload: 300
 range: 20
-rotateSpeed: 0
+rotateSpeed: 2
 recoil: 0
 category: turret
 shootY: 20
 shootSound: bomb-deploy
+targetAir: false
+ammoPerShot: 16
+
+requirements: [
+  copper/85
+  graphite/60
+  titanium/50
+]
+consumes: {
+  power: 8
+}
+ammoTypes: {
+  blast-compound: {
+    type: BasicBulletType
+    width: 6
+    height: 6
+    speed: 0
+    lifetime: 3600
+    collidesGround: true
+    collidesAir: false
+    damage: 480
+    splashDamage: 360
+    splashDamageRadius: 64
+    layer: 60
+  }
+}
