@@ -30,6 +30,7 @@ ammoTypes: {
     lifetime: 3600
     collidesGround: true
     collidesAir: false
+    collidesTiles: false
     damage: 480
     splashDamage: 360
     splashDamageRadius: 64
