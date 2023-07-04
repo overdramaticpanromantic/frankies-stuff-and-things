@@ -4,7 +4,7 @@ size: 3
 health: 1100
 type: ItemTurret
 reload: 300
-range: 20
+range: 16
 rotateSpeed: 2
 recoil: 0
 category: turret
