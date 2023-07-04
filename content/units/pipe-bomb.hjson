@@ -16,8 +16,6 @@ weapons: [
   {
     shootOnDeath: true
     shootCone: 360
-    targetUnits: false
-    targetBuildings: false
     x: 0
     y: 0
     mirror: false
