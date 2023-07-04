@@ -26,7 +26,7 @@ weapons: [
     bullet: {
       type: ExplosionBulletType
       killShooter: true
-      splashDamage: 960
+      splashDamage: 360
       splashDamageRadius: 40
     }
   }
