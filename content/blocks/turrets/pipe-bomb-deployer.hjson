@@ -1,5 +1,5 @@
 name: Pipe Bomb Deployer
-description: Deploys explosives on to enemy supply lines. Place facing a conveyor.
+description: Deploys explosives on to enemy supply lines. Place facing a conveyor. Bombs are defused after one minute.
 size: 3
 health: 1100
 type: ItemTurret
