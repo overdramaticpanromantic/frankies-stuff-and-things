@@ -8,7 +8,7 @@ range: 20
 rotateSpeed: 2
 recoil: 0
 category: turret
-shootY: 20
+shootY: 16
 shootSound: bomb-deploy
 targetAir: false
 ammoPerShot: 16
