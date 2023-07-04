@@ -1,6 +1,6 @@
 name: Pipe Bomb
 description: Deployed unit that explodes on contact with blocks.
-type: mech
+type: missile
 health: 480
 armor: 3
 speed: 0
@@ -14,6 +14,7 @@ useUnitCap: false
 hoverable: false
 targetGround: false
 targetAir: false
+lifetime: 3600
 weapons: [
   {
     shootOnDeath: true
