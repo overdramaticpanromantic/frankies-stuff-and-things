@@ -40,4 +40,5 @@ drawer: {
     moveX: 2
     moveY: -2
     moveRot: 8
+  ]
 }
