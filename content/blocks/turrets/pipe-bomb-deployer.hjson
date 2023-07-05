@@ -32,5 +32,12 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: empty-
+  parts: [
+    suffix: -cover
+    mirror: true
+    under: false
+    progress: warmup
+    moveX: 2
+    moveY: -2
+    moveRot: 8
 }
