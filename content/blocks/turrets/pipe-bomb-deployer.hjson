@@ -26,6 +26,7 @@ ammoTypes: {
     type: BulletType
     speed: 16
     lifetime: 1
+    firstShotDelay: 120
     despawnUnit: pipe-bomb
   }
 }
