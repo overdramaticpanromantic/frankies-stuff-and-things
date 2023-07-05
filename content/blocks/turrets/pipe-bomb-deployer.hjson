@@ -29,3 +29,8 @@ ammoTypes: {
     despawnUnit: pipe-bomb
   }
 }
+
+drawer: {
+  type: DrawTurret
+  basePrefix: empty-
+}
