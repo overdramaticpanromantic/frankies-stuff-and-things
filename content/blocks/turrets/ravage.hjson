@@ -1,7 +1,7 @@
 name: Ravage
 description: Fires a piercing cannonball.
 size: 3
-health: 1250
+health: 2300
 type: ItemTurret
 reload: 300
 range: 240
@@ -25,6 +25,7 @@ consumes: {
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType
+    damage: 300
     speed: 8
     lifetime: 30
     sprite: fsat-cannonball
