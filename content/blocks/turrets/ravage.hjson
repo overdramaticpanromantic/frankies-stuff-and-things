@@ -4,7 +4,7 @@ size: 3
 health: 1250
 type: ItemTurret
 reload: 300
-range: 120
+range: 240
 rotateSpeed: 3
 recoil: 8
 category: turret
@@ -25,8 +25,8 @@ consumes: {
 ammoTypes: {
   blast-compound: {
     type: BasicBulletType
-    speed: 2
-    lifetime: 60
+    speed: 8
+    lifetime: 30
     sprite: fsat-cannonball
     frontColor: 424242
     backColor: 333333
