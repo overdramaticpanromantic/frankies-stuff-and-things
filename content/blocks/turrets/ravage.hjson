@@ -32,6 +32,7 @@ ammoTypes: {
     shrinkY: 0
     speed: 8
     lifetime: 30
+    knockback: 8
     sprite: fsat-cannonball
     frontColor: 806b62
     backColor: 5e4c44
