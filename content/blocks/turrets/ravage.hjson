@@ -35,6 +35,8 @@ ammoTypes: {
     fragOnHit: false
     pierceCap: 4
     spin: -1.2
+    width: 16
+    height: 16
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
