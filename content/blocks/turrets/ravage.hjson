@@ -37,7 +37,7 @@ ammoTypes: {
     spin: -1.2
     width: 16
     height: 16
-    layer: 99
+    // layer: 99 if shit fucks over
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
