@@ -1,0 +1,48 @@
+name: Ravage
+description: Deploys explosives on to enemy supply lines. Place facing a conveyor. Bombs are defused after one minute.
+size: 3
+health: 1250
+type: ItemTurret
+reload: 300
+range: 120
+rotateSpeed: 3
+recoil: 8
+category: turret
+shootSound: artillery
+targetAir: false
+
+requirements: [
+  lead/120
+  graphite/90
+  titanium/80
+  plastanium/70
+]
+consumes: {
+  power: 8
+}
+ammoTypes: {
+  blast-compound: {
+    type: BulletType
+    speed: 16
+    lifetime: 1
+    despawnUnit: pipe-bomb
+  }
+}
+shoot: {
+  firstShotDelay: 120
+}
+
+drawer: {
+  type: DrawTurret
+  parts: [ 
+    {
+    suffix: -cover
+    mirror: true
+    under: false
+    progress: warmup
+    moveX: 4
+    moveY: -4
+    moveRot: 8
+    }
+  ]
+}
