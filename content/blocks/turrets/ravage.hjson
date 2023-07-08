@@ -12,6 +12,8 @@ shootSound: cannon
 targetAir: false
 ammoPerShot: 3
 shootY: 12
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
 
 requirements: [
   lead/120
