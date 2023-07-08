@@ -18,31 +18,12 @@ requirements: [
   plastanium/70
 ]
 consumes: {
-  power: 8
+  power: 3
 }
 ammoTypes: {
   blast-compound: {
-    type: BulletType
-    speed: 16
-    lifetime: 1
-    despawnUnit: pipe-bomb
+    type: ArtilleryBulletType
+    speed: 2
+    lifetime: 60
   }
-}
-shoot: {
-  firstShotDelay: 120
-}
-
-drawer: {
-  type: DrawTurret
-  parts: [ 
-    {
-    suffix: -cover
-    mirror: true
-    under: false
-    progress: warmup
-    moveX: 4
-    moveY: -4
-    moveRot: 8
-    }
-  ]
 }
