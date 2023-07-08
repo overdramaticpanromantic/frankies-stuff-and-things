@@ -40,6 +40,11 @@ ammoTypes: {
     width: 16
     height: 16
     layer: 99
+    trailInterval: 3 
+    trailEffect: shootSmokeSquareSparse
+    trailRotation: true
+    trailWidth: 4 
+    trailLength: 12
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
