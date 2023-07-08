@@ -1,5 +1,5 @@
 name: Ravage
-description: Fires a piercing cannonball.
+description: Fires a piercing cannonball at ground targets.
 size: 3
 health: 2300
 type: ItemTurret
