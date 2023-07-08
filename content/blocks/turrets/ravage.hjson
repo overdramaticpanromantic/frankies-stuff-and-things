@@ -1,5 +1,5 @@
 name: Ravage
-description: Deploys explosives on to enemy supply lines. Place facing a conveyor. Bombs are defused after one minute.
+description: Fires a piercing cannonball.
 size: 3
 health: 1250
 type: ItemTurret
@@ -8,8 +8,9 @@ range: 120
 rotateSpeed: 3
 recoil: 8
 category: turret
-shootSound: artillery
+shootSound: cannon
 targetAir: false
+ammoPerShot: 3
 
 requirements: [
   lead/120
@@ -22,8 +23,20 @@ consumes: {
 }
 ammoTypes: {
   blast-compound: {
-    type: ArtilleryBulletType
+    type: BasicBulletType
     speed: 2
     lifetime: 60
+    sprite: fsat-cannonball
+    frontColor: 424242
+    backColor: 333333
+    pierce: true
+    fragOnHit: false
+    pierceCap: 4
+    fragBullets: 1
+    fragBullet: {
+      type: ExplosionBulletType
+      splashDamage: 350
+      splashDamageRadius: 32
+    }
   }
 }
