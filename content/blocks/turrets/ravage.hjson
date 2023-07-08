@@ -37,6 +37,7 @@ ammoTypes: {
     spin: -1.2
     width: 16
     height: 16
+    layer: 99
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
