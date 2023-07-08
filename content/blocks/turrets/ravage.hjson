@@ -11,6 +11,7 @@ category: turret
 shootSound: cannon
 targetAir: false
 ammoPerShot: 3
+shootY: 12
 
 requirements: [
   lead/120
@@ -32,6 +33,7 @@ ammoTypes: {
     pierce: true
     fragOnHit: false
     pierceCap: 4
+    spin: -1.2
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
