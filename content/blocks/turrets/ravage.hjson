@@ -28,11 +28,13 @@ ammoTypes: {
   blast-compound: {
     type: BasicBulletType
     damage: 300
+    shrinkX: 0
+    shrinkY: 0
     speed: 8
     lifetime: 30
     sprite: fsat-cannonball
-    frontColor: 424242
-    backColor: 333333
+    frontColor: 806b62
+    backColor: 5e4c44
     pierce: true
     fragOnHit: false
     pierceCap: 4
