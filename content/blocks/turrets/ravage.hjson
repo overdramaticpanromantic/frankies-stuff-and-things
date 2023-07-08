@@ -35,6 +35,7 @@ ammoTypes: {
     fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
+      killShooter: false
       splashDamage: 350
       splashDamageRadius: 32
     }
