@@ -34,7 +34,8 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       damage: 0
-      length: 12
+      length: 8
+      width: 4
       knockback: 0
       pierceCap: 0
       colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
