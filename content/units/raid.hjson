@@ -10,12 +10,13 @@ flying: true
 engineSize: 0
 circleTarget: true
 faceTarget: true
+rotateMoveFirst: true
 
 weapons: [
   {
     x: 0
     y: 7
-    reload: 10
+    reload: 5
     mirror: false
     
     bullet: {
