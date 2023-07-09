@@ -1,1 +1,43 @@
+name: Raid
+description: Fires salvos of rounds at nearby targets.
+type: flying
+health: 130
+armor: 2
+speed: 3
+hitSize: 7
+flying: true
 
+weapons: [
+  {
+    x: 0
+    y: 7
+    reload: 10
+    mirror: false
+    
+    bullet: {
+      type: BasicBulletType
+      damage: 14
+      speed: 3
+      lifetime: 45
+      width: 6
+      height: 12
+    }
+  }
+  {
+    x: 0
+    y: -7
+    mirror: false
+    alwaysShooting: true
+    alwaysContinuous: true
+    baseRotation: 180
+
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 0
+      length: 12
+      knockback: 0
+      pierceCap: 0
+      colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
+    }
+  }
+]
