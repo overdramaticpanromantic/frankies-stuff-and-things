@@ -40,6 +40,7 @@ weapons: [
       pierceCap: 0
       colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
       collides: false
+      drawFlare: false
     }
   }
 ]
