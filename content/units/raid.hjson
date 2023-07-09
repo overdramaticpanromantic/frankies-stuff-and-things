@@ -28,7 +28,7 @@ weapons: [
   }
   {
     x: 0
-    y: -4
+    y: -2
     mirror: false
     alwaysShooting: true
     alwaysContinuous: true
@@ -37,8 +37,8 @@ weapons: [
     bullet: {
       type: ContinuousFlameBulletType
       damage: 0
-      length: 3
-      width: 1
+      length: 4
+      width: 1.5
       knockback: 0
       pierceCap: 0
       colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
