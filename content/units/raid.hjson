@@ -33,6 +33,7 @@ weapons: [
     alwaysShooting: true
     alwaysContinuous: true
     baseRotation: 180
+    shootSound: none
 
     bullet: {
       type: ContinuousFlameBulletType
