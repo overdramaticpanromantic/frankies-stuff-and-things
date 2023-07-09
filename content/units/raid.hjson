@@ -4,13 +4,12 @@ type: flying
 health: 130
 armor: 2
 speed: 3
-rotateSpeed: 3
+rotateSpeed: 0.5
 hitSize: 7
 flying: true
 engineSize: 0
 circleTarget: true
 faceTarget: true
-rotateMoveFirst: true
 
 weapons: [
   {
