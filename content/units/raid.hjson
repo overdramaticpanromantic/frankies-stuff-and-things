@@ -1,8 +1,8 @@
 name: Raid
 description: Fires salvos of rounds at nearby targets.
 type: flying
-health: 150
-armor: 2
+health: 120
+armor: 1
 speed: 3
 drag: 0.06
 rotateSpeed: 3
