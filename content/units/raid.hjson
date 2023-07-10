@@ -8,6 +8,7 @@ rotateSpeed: 3
 hitSize: 7
 flying: true
 engineSize: 0
+faceTarget: true
 omniMovement: false
 
 weapons: [
