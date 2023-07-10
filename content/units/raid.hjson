@@ -9,7 +9,7 @@ hitSize: 7
 flying: true
 engineSize: 0
 circleTarget: true
-faceTarget: true
+// faceTarget: true
 omniMovement: false
 
 weapons: [
