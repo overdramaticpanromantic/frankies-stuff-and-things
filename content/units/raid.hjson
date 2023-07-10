@@ -19,6 +19,7 @@ weapons: [
     y: 4
     reload: 6
     mirror: false
+    minShootVelocity: 1
     
     bullet: {
       type: BasicBulletType
