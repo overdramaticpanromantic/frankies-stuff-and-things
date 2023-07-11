@@ -18,9 +18,9 @@ weapons: [
     x: -5
     y: 3
     mirror: true
-    reload: 10
+    reload: 6
     shootCone: 10
-    name: autocannon
+    name: rush-autocannon
     minShootVelocity: 1
 
     bullet: {
