@@ -23,7 +23,7 @@ weapons: [
     name: rush-autocannon
     minShootVelocity: 1
     top: false
-    layerOffset: 89
+    layerOffset: -1
 
     bullet: {
       type: BasicBulletType
