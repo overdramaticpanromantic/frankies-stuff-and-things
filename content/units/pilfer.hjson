@@ -1,5 +1,5 @@
 name: Pilfer
-description: Rapid fires light incendiary rounds at enemy targets.
+description: Pelts enemy targets with high incendiary rounds. Drops bombs on ground targets.
 type: flying
 health: 650
 armor: 5
