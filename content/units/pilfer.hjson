@@ -20,7 +20,7 @@ weapons: [
     mirror: false
     reload: 4
     shootCone: 10
-    minShootVelocity: 1
+    minShootVelocity: 2
 
     bullet: {
       type: BasicBulletType
@@ -36,9 +36,9 @@ weapons: [
   {
     x: 0
     y: 0
-    minShootvelocity: 1
+    minShootvelocity: 2
     reload: 12
-    shootCone: 180
+    shootCone: 10
     ejectEffect: none
     inaccuracy: 15
     ignoreRotation: true
