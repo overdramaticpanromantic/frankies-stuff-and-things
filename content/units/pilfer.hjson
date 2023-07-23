@@ -1,1 +1,60 @@
+name: Pilfer
+description: Rapid fires light incendiary rounds at enemy targets.
+type: flying
+health: 650
+armor: 5
+speed: 2.7
+accel: 0.04
+drag: 0.1
+rotateSpeed: 2.4
+hitSize: 16
+flying: true
+engineSize: 0
+circleTarget: true
+faceTarget: true
+omniMovement: false
 
+weapons: [
+  {
+    x: 0
+    y: 8
+    mirror: false
+    reload: 3
+    shootCone: 10
+    minShootVelocity: 1
+
+    bullet: {
+      type: BasicBulletType
+      damage: 10
+      speed: 3
+      width: 6
+      height: 12
+      lifetime: 25
+      status: melting
+    }
+  }
+  {
+    x: 0
+    y: -8
+    mirror: false
+    alwaysShooting: true
+    alwaysContinuous: true
+    baseRotation: 180
+    shootSound: none
+
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 0
+      length: 12
+      width: 3
+      knockback: 0
+      pierceCap: 0
+      colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
+      collides: false
+      drawFlare: false
+      shootSound: none
+      hitSound: none
+      despawnSound: none
+    }
+  }
+]
