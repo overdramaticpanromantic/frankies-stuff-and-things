@@ -48,6 +48,7 @@ weapons: [
       type: BombBulletType
       width: 10
       height: 14
+      speed: 2.5
       hitEffect: flakExplosion
       shootEffect: none
       smokeEffect: none
