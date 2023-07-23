@@ -19,7 +19,7 @@ weapons: [
     y: 4
     reload: 6
     mirror: false
-    minShootVelocity: 1
+    minShootVelocity: 0.75
     shootCone: 180
     
     bullet: {
