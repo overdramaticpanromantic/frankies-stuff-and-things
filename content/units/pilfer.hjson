@@ -36,7 +36,7 @@ weapons: [
   {
     x: 0
     y: 0
-    minShootvelocity: 2
+    minShootVelocity: 2
     reload: 12
     shootCone: 180
     ejectEffect: none
