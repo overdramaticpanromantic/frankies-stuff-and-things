@@ -3,8 +3,7 @@ description: Rapid fires light incendiary rounds at enemy targets.
 type: flying
 health: 650
 armor: 5
-speed: 2.7
-accel: 0.04
+speed: 3
 drag: 0.1
 rotateSpeed: 2.4
 hitSize: 16
