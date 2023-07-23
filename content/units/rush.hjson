@@ -21,7 +21,7 @@ weapons: [
     reload: 6
     shootCone: 180
     name: rush-autocannon
-    minShootVelocity: 1
+    minShootVelocity: 0.75
     top: false
     layerOffset: -1
 
