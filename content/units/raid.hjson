@@ -20,7 +20,7 @@ weapons: [
     reload: 6
     mirror: false
     minShootVelocity: 1
-    shootCone: 10
+    shootCone: 180
     
     bullet: {
       type: BasicBulletType
