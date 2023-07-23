@@ -19,7 +19,7 @@ weapons: [
     y: 8
     mirror: false
     reload: 4
-    shootCone: 10
+    shootCone: 180
     minShootVelocity: 2
 
     bullet: {
@@ -38,7 +38,7 @@ weapons: [
     y: 0
     minShootvelocity: 2
     reload: 12
-    shootCone: 10
+    shootCone: 180
     ejectEffect: none
     inaccuracy: 15
     ignoreRotation: true
