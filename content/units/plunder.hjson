@@ -84,7 +84,8 @@ weapons: [
       hitSound: none
       despawnSound: none
     }
-    {
+  }
+  {
     x: -40
     y: -10
     mirror: true
