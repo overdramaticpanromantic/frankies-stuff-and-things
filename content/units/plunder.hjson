@@ -1,12 +1,12 @@
 name: Plunder
-description: Pelts enemy targets with high incendiary rounds. Drops bombs on ground targets.
+description: Launches high velocity armor piercing rounds. Drops bombs on ground targets.
 type: flying
-health: 650
-armor: 5
-speed: 3
+health: 5480
+armor: 8
+speed: 2
 drag: 0.1
-rotateSpeed: 2.4
-hitSize: 16
+rotateSpeed: 1.8
+hitSize: 46
 flying: true
 engineSize: 0
 circleTarget: true
@@ -16,7 +16,7 @@ omniMovement: false
 weapons: [
   {
     x: 0
-    y: 10
+    y: 0
     mirror: false
     reload: 4
     shootCone: 180
