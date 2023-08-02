@@ -20,7 +20,7 @@ weapons: [
     mirror: true
     reload: 6
     shootCone: 180
-    name: rush-autocannon
+    name: raid-autocannon
     minShootVelocity: 0.75
     top: false
     layerOffset: -1
