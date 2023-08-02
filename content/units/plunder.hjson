@@ -63,7 +63,7 @@ weapons: [
   }
   {
     x: 0
-    y: -50
+    y: -15
     mirror: false
     alwaysShooting: true
     alwaysContinuous: true
@@ -86,9 +86,10 @@ weapons: [
     }
   }
   {
-    x: -40
-    y: -10
+    x: -20
+    y: -7
     mirror: true
+    alternate: false
     alwaysShooting: true
     alwaysContinuous: true
     baseRotation: 180
