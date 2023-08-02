@@ -4,6 +4,7 @@ type: flying
 health: 120
 armor: 1
 speed: 3
+accel: 0.06
 drag: 0.06
 rotateSpeed: 3
 hitSize: 7
@@ -39,6 +40,7 @@ weapons: [
     alwaysContinuous: true
     baseRotation: 180
     shootSound: none
+    minShootVelocity: 0.5
 
     bullet: {
       type: ContinuousFlameBulletType
