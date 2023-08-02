@@ -84,5 +84,28 @@ weapons: [
       hitSound: none
       despawnSound: none
     }
+    {
+    x: -40
+    y: -10
+    mirror: true
+    alwaysShooting: true
+    alwaysContinuous: true
+    baseRotation: 180
+    shootSound: none
+
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 0
+      length: 12
+      width: 2
+      knockback: 0
+      pierceCap: 0
+      colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
+      collides: false
+      drawFlare: false
+      shootSound: none
+      hitSound: none
+      despawnSound: none
+    }
   }
 ]
