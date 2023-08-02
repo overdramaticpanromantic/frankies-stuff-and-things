@@ -70,6 +70,7 @@ weapons: [
     alwaysContinuous: true
     baseRotation: 180
     shootSound: none
+    minShootVelocity: 0.5
 
     bullet: {
       type: ContinuousFlameBulletType
@@ -95,6 +96,7 @@ weapons: [
     alwaysContinuous: true
     baseRotation: 180
     shootSound: none
+    minShootVelocity: 0.5
 
     bullet: {
       type: ContinuousFlameBulletType
