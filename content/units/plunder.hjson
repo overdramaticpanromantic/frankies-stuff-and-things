@@ -93,12 +93,10 @@ weapons: [
     mirror: true
     alternate: false
     alwaysShooting: true
-    alwaysContinuous: false
-    continuous: true
+    alwaysContinuous: true
     baseRotation: 180
     shootSound: none
     minShootVelocity: 0.5
-    reload: 1
 
     bullet: {
       type: ContinuousFlameBulletType
