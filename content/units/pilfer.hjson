@@ -13,6 +13,7 @@ engineSize: 0
 circleTarget: true
 faceTarget: true
 omniMovement: false
+strafePenalty: 1
 
 weapons: [
   {
