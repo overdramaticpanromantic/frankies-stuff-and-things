@@ -15,7 +15,7 @@ omniMovement: false
 
 weapons: [
   {
-    x: -15
+    x: -12
     y: 10
     mirror: true
     reload: 15
@@ -86,7 +86,7 @@ weapons: [
     }
   }
   {
-    x: -22
+    x: -21
     y: -5
     mirror: true
     alternate: false
