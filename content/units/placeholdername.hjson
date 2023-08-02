@@ -1,4 +1,4 @@
-name: Raid
+name: Rush
 description: Fires salvos of rounds at nearby targets.
 type: flying
 health: 120
