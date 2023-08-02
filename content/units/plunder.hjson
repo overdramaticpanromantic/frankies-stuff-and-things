@@ -4,7 +4,7 @@ type: flying
 health: 5480
 armor: 8
 speed: 2
-drag: 0.1
+drag: 0.2
 rotateSpeed: 1.8
 hitSize: 46
 flying: true
@@ -16,7 +16,7 @@ omniMovement: false
 weapons: [
   {
     x: -12
-    y: 10
+    y: 12
     mirror: true
     reload: 15
     shootCone: 180
