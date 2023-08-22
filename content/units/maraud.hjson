@@ -17,8 +17,8 @@ strafePenalty: 1
 
 weapons: [
   {
-    x: -13
-    y: 16
+    x: -14.5
+    y: 17
     mirror: true
     reload: 20
     shootCone: 180
@@ -52,8 +52,8 @@ weapons: [
 
     bullet: {
       type: BombBulletType
-      width: 24
-      height: 30
+      width: 10
+      height: 15
       speed: 2
       splashDamage: 160
       splashDamageRadius: 24
