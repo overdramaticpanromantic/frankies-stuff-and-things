@@ -26,7 +26,7 @@ weapons: [
     minShootVelocity: 0.75
     top: false
     layerOffset: -1
-    ejectEffect: casing1
+    ejectEffect: casing2
 
     bullet: {
       type: BasicBulletType
@@ -92,7 +92,7 @@ weapons: [
   }
   {
     x: -23
-    y: 2
+    y: 5
     mirror: true
     minShootVelocity: 0.75
     reload: 60
