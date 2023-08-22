@@ -4,8 +4,8 @@ type: flying
 health: 21580
 armor: 16
 speed: 1.4
-accel: 0.08
-drag: 0.08
+accel: 0.12
+drag: 0.12
 rotateSpeed: 1.5
 hitSize: 70
 flying: true
