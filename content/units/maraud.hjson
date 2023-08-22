@@ -101,6 +101,7 @@ weapons: [
     shootSound: laser
     name: maraud-railgun
     top: false
+    layerOffset: -1
 
     bullet: {
       type: LaserBulletType
