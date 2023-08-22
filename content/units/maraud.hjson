@@ -102,6 +102,7 @@ weapons: [
     name: maraud-railgun
     top: false
     layerOffset: -1
+    shootY: 8
 
     bullet: {
       type: LaserBulletType
