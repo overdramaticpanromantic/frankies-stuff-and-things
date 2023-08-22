@@ -58,7 +58,7 @@ weapons: [
       lifetime: 45
       pierce: false
       inaccuracy: 5
-      layer: 119
+      layer: 115.1
 
       spawnBullets: [
         {
@@ -71,7 +71,7 @@ weapons: [
           pierce: false
           inaccuracy: 15
           collidesGround: true
-          layer: 119
+          layer: 115.1
         }
         {
           type: BasicBulletType
@@ -82,7 +82,7 @@ weapons: [
           lifetime: 60
           pierce: false
           inaccuracy: 5
-          layer: 119
+          layer: 115.1
         }
       ]
     }
