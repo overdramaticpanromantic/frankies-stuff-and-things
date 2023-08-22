@@ -26,6 +26,7 @@ weapons: [
     minShootVelocity: 0.75
     top: false
     layerOffset: -1
+    ejectEffect: casing1
 
     bullet: {
       type: BasicBulletType
@@ -49,6 +50,7 @@ weapons: [
     controllable: false
     autoTarget: true
     shootY: 15
+    ejectEffect: casing1
 
     bullet: {
       type: BasicBulletType
