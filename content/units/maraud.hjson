@@ -90,8 +90,8 @@ weapons: [
     }
   }
   {
-    x: -21
-    y: -12
+    x: -24
+    y: -9
     mirror: true
     alternate: false
     alwaysShooting: true
