@@ -17,8 +17,8 @@ strafePenalty: 1
 
 weapons: [
   {
-    x: -15
-    y: 20
+    x: -13
+    y: 16
     mirror: true
     reload: 20
     shootCone: 180
@@ -39,8 +39,8 @@ weapons: [
     }
   }
   {
-    x: -12
-    y: 20
+    x: -30
+    y: 2
     mirror: true
     minShootVelocity: 0.75
     reload: 15
