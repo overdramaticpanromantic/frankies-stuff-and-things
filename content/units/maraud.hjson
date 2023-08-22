@@ -51,7 +51,7 @@ weapons: [
 
     bullet: {
       type: BasicBulletType
-      damage: 18
+      damage: 9
       speed: 4
       width: 6
       height: 12
@@ -62,7 +62,7 @@ weapons: [
       spawnBullets: [
         {
           type: FlakBulletType
-          damage: 10
+          damage: 6
           speed: 4
           width: 6
           height: 12
@@ -73,7 +73,7 @@ weapons: [
         }
         {
           type: BasicBulletType
-          damage: 18
+          damage: 9
           speed: 4
           width: 6
           height: 12
