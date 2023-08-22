@@ -1,1 +1,118 @@
+name: Maraud
+description: Shoots high-power rounds and laser salvos at enemy targets. Equipped with an automatic minigun and bomb-dropping capabilities.
+type: flying
+health: 21580
+armor: 16
+speed: 1.4
+accel: 0.08
+drag: 0.08
+rotateSpeed: 1.5
+hitSize: 70
+flying: true
+engineSize: 0
+circleTarget: true
+faceTarget: true
+omniMovement: false
+strafePenalty: 1
 
+weapons: [
+  {
+    x: -15
+    y: 20
+    mirror: true
+    reload: 20
+    shootCone: 180
+    name: maraud-cannon
+    minShootVelocity: 0.75
+    top: false
+    layerOffset: -1
+
+    bullet: {
+      type: BasicBulletType
+      damage: 170
+      speed: 4
+      width: 18
+      height: 30
+      lifetime: 45
+      pierce: true
+      pierceCap: 2
+    }
+  }
+  {
+    x: -12
+    y: 20
+    mirror: true
+    minShootVelocity: 0.75
+    reload: 15
+    shootCone: 180
+    ejectEffect: none
+    inaccuracy: 10
+    ignoreRotation: true
+    shootSound: none
+
+    bullet: {
+      type: BombBulletType
+      width: 24
+      height: 30
+      speed: 2
+      splashDamage: 160
+      splashDamageRadius: 24
+      hitEffect: flakExplosion
+      shootEffect: none
+      smokeEffect: none
+      status: blasted
+      statusDuration: 60
+    }
+  }
+  {
+    x: 0
+    y: -24
+    mirror: false
+    alwaysShooting: true
+    alwaysContinuous: true
+    baseRotation: 180
+    shootSound: none
+    minShootVelocity: 0.5
+
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 0
+      length: 30
+      width: 6
+      knockback: 0
+      pierceCap: 0
+      colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
+      collides: false
+      drawFlare: false
+      shootSound: none
+      hitSound: none
+      despawnSound: none
+    }
+  }
+  {
+    x: -21
+    y: -12
+    mirror: true
+    alternate: false
+    alwaysShooting: true
+    alwaysContinuous: true
+    baseRotation: 180
+    shootSound: none
+    minShootVelocity: 0.5
+
+    bullet: {
+      type: ContinuousFlameBulletType
+      damage: 0
+      length: 12
+      width: 2
+      knockback: 0
+      pierceCap: 0
+      colors: [df644b, f67f4a, ffa156, ffb981, ffffff]
+      collides: false
+      drawFlare: false
+      shootSound: none
+      hitSound: none
+      despawnSound: none
+    }
+  }
+]
