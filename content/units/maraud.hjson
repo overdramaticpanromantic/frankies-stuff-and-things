@@ -91,7 +91,7 @@ weapons: [
   }
   {
     x: -26
-    y: -5.5
+    y: -5
     mirror: true
     alternate: false
     alwaysShooting: true
