@@ -89,6 +89,29 @@ weapons: [
     }
   }
   {
+    x: -23
+    y: 2
+    mirror: true
+    minShootVelocity: 0.75
+    reload: 60
+    shootCone: 180
+    shake: 2
+    shootSound: laser
+    name: maraud-railgun
+
+    bullet: {
+      type: LaserBulletType
+      damage: 115
+      sideAngle: 20
+      sideWidth: 1.5
+      sideLength: 80
+      width: 15
+      length: 200
+      shootEffect: shockwave
+      colors: [ec7458, ff9c5a, ffffff]
+    }
+  }
+  {
     x: -30
     y: -1
     mirror: true
