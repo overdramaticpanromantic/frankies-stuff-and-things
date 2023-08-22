@@ -39,6 +39,51 @@ weapons: [
     }
   }
   {
+    x: 0
+    y: 1
+    mirror: false
+    rotate: true
+    name: maraud-minigun
+    reload: 3
+    top: true
+    controllable: false
+    autoTarget: true
+
+    bullet: {
+      type: BasicBulletType
+      damage: 18
+      speed: 4
+      width: 2
+      height: 4
+      lifetime: 60
+      pierce: false
+      inaccuracy: 5
+
+      spawnBullets: [
+        {
+          type: FlakBulletType
+          damage: 10
+          speed: 4
+          width: 2
+          height: 2
+          lifetime: 60
+          pierce: false
+          inaccuracy: 15
+        }
+        {
+          type: BasicBulletType
+          damage: 18
+          speed: 4
+          width: 2
+          height: 4
+          lifetime: 60
+          pierce: false
+          inaccuracy: 5
+        }
+      ]
+    }
+  }
+  {
     x: -30
     y: -1
     mirror: true
