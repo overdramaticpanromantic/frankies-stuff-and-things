@@ -2,3 +2,5 @@ name: Stabilized Neutronium
 description: Neutronium drained of its power differential.
 color: a8dcae
 charge: 0.25
+radioactivity: 0.75
+explosiveness: 0.5
