@@ -2,3 +2,5 @@ name: Polarized Neutronium
 description: Neutronium polarized with high electrical charge.
 color: ecb8b8
 charge: 2.25
+radioactivity: 2.5
+explosiveness: 2
