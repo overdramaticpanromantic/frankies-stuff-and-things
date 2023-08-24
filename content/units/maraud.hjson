@@ -27,7 +27,7 @@ weapons: [
     top: false
     layerOffset: -1
     ejectEffect: casing2
-    shootSound: shoot
+    shootSound: artillery
 
     bullet: {
       type: BasicBulletType
