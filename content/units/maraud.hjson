@@ -27,6 +27,7 @@ weapons: [
     top: false
     layerOffset: -1
     ejectEffect: casing2
+    shootSound: shoot
 
     bullet: {
       type: BasicBulletType
@@ -51,6 +52,7 @@ weapons: [
     autoTarget: true
     shootY: 15
     ejectEffect: casing1
+    shootSound: shootSnap
 
     bullet: {
       type: BasicBulletType
