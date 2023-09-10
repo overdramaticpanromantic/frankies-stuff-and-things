@@ -23,7 +23,7 @@ weapons: [
     reload: 20
     shootCone: 180
     name: maraud-cannon
-    minShootVelocity: 0.75
+    minShootVelocity: 0.05
     top: false
     layerOffset: -1
     ejectEffect: casing2
@@ -96,7 +96,7 @@ weapons: [
     x: -23
     y: 8
     mirror: true
-    minShootVelocity: 0.75
+    minShootVelocity: 0.05
     reload: 60
     shootCone: 180
     shake: 2
@@ -122,7 +122,7 @@ weapons: [
     x: -30
     y: -1
     mirror: true
-    minShootVelocity: 0.75
+    minShootVelocity: 0.05
     reload: 15
     shootCone: 180
     ejectEffect: none
@@ -152,7 +152,7 @@ weapons: [
     alwaysContinuous: true
     baseRotation: 180
     shootSound: none
-    minShootVelocity: 0.5
+    minShootVelocity: 0.05
 
     bullet: {
       type: ContinuousFlameBulletType
@@ -178,7 +178,7 @@ weapons: [
     alwaysContinuous: true
     baseRotation: 180
     shootSound: none
-    minShootVelocity: 0.5
+    minShootVelocity: 0.05
 
     bullet: {
       type: ContinuousFlameBulletType
@@ -200,7 +200,7 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.5
+    minShootVelocity: 0.05
     shootSound: none
     reload: 5
 
