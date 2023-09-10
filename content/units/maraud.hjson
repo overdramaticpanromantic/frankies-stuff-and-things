@@ -243,4 +243,28 @@ weapons: [
     recoil: -0.1
     }
   }
+ {
+    x: 0
+    y: 0
+    mirror: false
+    alwaysShooting: true
+    minShootVelocity: 0.65
+    shootSound: none
+    reload: 5
+
+    bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    length: 0
+    width: 0
+    pierceCap: 0
+    knockback: 0
+    hitSound: none
+    despawnSound: none
+    shootSound: none
+    drawFlare: false
+    collides: false
+    recoil: -0.1
+    }
+  }
 ]
