@@ -216,7 +216,7 @@ weapons: [
     shootSound: none
     drawFlare: false
     collides: false
-    recoil: -0.2
+    recoil: -0.4
     }
   }
 ]
