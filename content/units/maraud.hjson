@@ -153,6 +153,7 @@ weapons: [
     baseRotation: 180
     shootSound: none
     minShootVelocity: 0.5
+    recoil: 4
 
     bullet: {
       type: ContinuousFlameBulletType
