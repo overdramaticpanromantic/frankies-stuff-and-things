@@ -3,7 +3,7 @@ description: Shoots high-power rounds and laser salvos at enemy targets. Equippe
 type: flying
 health: 21580
 armor: 16
-speed: 1
+speed: 0.5
 accel: 0.04
 drag: 0.04
 rotateSpeed: 1.5
@@ -200,78 +200,6 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.15
-    shootSound: none
-    reload: 5
-
-    bullet: {
-    type: ContinuousFlameBulletType
-    damage: 0
-    length: 0
-    width: 0
-    pierceCap: 0
-    knockback: 0
-    hitSound: none
-    despawnSound: none
-    shootSound: none
-    drawFlare: false
-    collides: false
-    recoil: -0.03
-    }
-  }
- {
-    x: 0
-    y: 0
-    mirror: false
-    alwaysShooting: true
-    minShootVelocity: 0.25
-    shootSound: none
-    reload: 5
-
-    bullet: {
-    type: ContinuousFlameBulletType
-    damage: 0
-    length: 0
-    width: 0
-    pierceCap: 0
-    knockback: 0
-    hitSound: none
-    despawnSound: none
-    shootSound: none
-    drawFlare: false
-    collides: false
-    recoil: -0.03
-    }
-  }
- {
-    x: 0
-    y: 0
-    mirror: false
-    alwaysShooting: true
-    minShootVelocity: 0.35
-    shootSound: none
-    reload: 5
-
-    bullet: {
-    type: ContinuousFlameBulletType
-    damage: 0
-    length: 0
-    width: 0
-    pierceCap: 0
-    knockback: 0
-    hitSound: none
-    despawnSound: none
-    shootSound: none
-    drawFlare: false
-    collides: false
-    recoil: -0.03
-    }
-  }
- {
-    x: 0
-    y: 0
-    mirror: false
-    alwaysShooting: true
     minShootVelocity: 0.45
     shootSound: none
     reload: 5
@@ -288,7 +216,79 @@ weapons: [
     shootSound: none
     drawFlare: false
     collides: false
-    recoil: -0.03
+    recoil: -0.08
+    }
+  }
+ {
+    x: 0
+    y: 0
+    mirror: false
+    alwaysShooting: true
+    minShootVelocity: 0.55
+    shootSound: none
+    reload: 5
+
+    bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    length: 0
+    width: 0
+    pierceCap: 0
+    knockback: 0
+    hitSound: none
+    despawnSound: none
+    shootSound: none
+    drawFlare: false
+    collides: false
+    recoil: -0.08
+    }
+  }
+ {
+    x: 0
+    y: 0
+    mirror: false
+    alwaysShooting: true
+    minShootVelocity: 0.65
+    shootSound: none
+    reload: 5
+
+    bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    length: 0
+    width: 0
+    pierceCap: 0
+    knockback: 0
+    hitSound: none
+    despawnSound: none
+    shootSound: none
+    drawFlare: false
+    collides: false
+    recoil: -0.08
+    }
+  }
+ {
+    x: 0
+    y: 0
+    mirror: false
+    alwaysShooting: true
+    minShootVelocity: 0.75
+    shootSound: none
+    reload: 5
+
+    bullet: {
+    type: ContinuousFlameBulletType
+    damage: 0
+    length: 0
+    width: 0
+    pierceCap: 0
+    knockback: 0
+    hitSound: none
+    despawnSound: none
+    shootSound: none
+    drawFlare: false
+    collides: false
+    recoil: -0.08
     }
   }
 ]
