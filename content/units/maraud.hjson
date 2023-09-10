@@ -224,7 +224,7 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.6
+    minShootVelocity: 0.55
     shootSound: none
     reload: 5
 
