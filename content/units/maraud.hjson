@@ -200,7 +200,7 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.5
+    minShootVelocity: 0.45
     shootSound: none
     reload: 5
 
