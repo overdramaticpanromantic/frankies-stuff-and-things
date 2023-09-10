@@ -200,7 +200,7 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.45
+    minShootVelocity: 0.5
     shootSound: none
     reload: 5
 
@@ -224,7 +224,7 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.55
+    minShootVelocity: 0.8
     shootSound: none
     reload: 5
 
@@ -248,7 +248,7 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.65
+    minShootVelocity: 1.1
     shootSound: none
     reload: 5
 
@@ -272,7 +272,7 @@ weapons: [
     y: 0
     mirror: false
     alwaysShooting: true
-    minShootVelocity: 0.75
+    minShootVelocity: 1.4
     shootSound: none
     reload: 5
 
