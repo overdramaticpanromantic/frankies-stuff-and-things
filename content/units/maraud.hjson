@@ -3,7 +3,7 @@ description: Shoots high-power rounds and laser salvos at enemy targets. Equippe
 type: flying
 health: 21580
 armor: 16
-speed: 0.2
+speed: 1
 accel: 0.04
 drag: 0.04
 rotateSpeed: 1.5
@@ -216,7 +216,7 @@ weapons: [
     shootSound: none
     drawFlare: false
     collides: false
-    recoil: -0.1
+    recoil: -0.03
     }
   }
  {
@@ -240,7 +240,7 @@ weapons: [
     shootSound: none
     drawFlare: false
     collides: false
-    recoil: -0.1
+    recoil: -0.03
     }
   }
  {
@@ -264,7 +264,7 @@ weapons: [
     shootSound: none
     drawFlare: false
     collides: false
-    recoil: -0.1
+    recoil: -0.03
     }
   }
  {
@@ -288,7 +288,7 @@ weapons: [
     shootSound: none
     drawFlare: false
     collides: false
-    recoil: -0.1
+    recoil: -0.03
     }
   }
 ]
