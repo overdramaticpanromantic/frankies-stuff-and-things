@@ -11,4 +11,10 @@ heatOutput: 8
 regionRotated1: 1
 ambientSound: hum
 itemCapacity: 10
-consumePower: 1
+consumes: {
+  power: 1
+  items: oxide/1
+  liquids: nitrogen/0.05
+}
+hasLiquids: true
+craftTime: 60
