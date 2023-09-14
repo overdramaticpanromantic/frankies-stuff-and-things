@@ -1,1 +1,14 @@
-
+name: Combustion Heater
+category: crafting
+type: HeatProducer
+requirements: [
+  beryllium/35
+  tungsten/20
+  oxide/25
+]
+size: 2
+heatOutput: 8
+regionRotated1: 1
+ambientSound: hum
+itemCapacity: 10
+consumePower: 1
