@@ -13,8 +13,8 @@ ambientSound: hum
 itemCapacity: 10
 consumes: {
   power: 1
-  items: oxide/1
-  liquids: nitrogen/0.05
+  item: oxide/1
+  liquid: nitrogen/0.05
 }
 hasLiquids: true
 craftTime: 60
