@@ -13,10 +13,10 @@ ambientSound: hum
 itemCapacity: 10
 consumes: {
   power: 1
-  items: [
-    oxide/1
+  liquids: [ 
+    nitrogen/0.033333333333333333334
+    ozone/0.033333333333333333334
   ]
-  liquid: nitrogen/0.05
 }
 hasLiquids: true
 craftTime: 60
