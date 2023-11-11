@@ -10,7 +10,7 @@ requirements: [
   thorium/200
   phase-fabric/125
 ]
-ambientSound: combustion
+ambientSound: pulse
 ambientSoundVolume: 0.06
 itemCapacity: 10
 consumes: {
