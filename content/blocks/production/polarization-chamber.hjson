@@ -1,0 +1,12 @@
+name: Polarization Chamber
+category: crafting
+type: ImpactReactor
+size: 3
+health: 650
+requirements: [
+  lead/350
+  titanium/300
+  silicon/275
+  plastanium/150
+  surge-alloy/125
+]
