@@ -10,3 +10,14 @@ requirements: [
   plastanium/150
   surge-alloy/125
 ]
+powerProduction: 0
+itemDuration: 120
+ambientSound: pulse
+ambientSoundVolume: 0.06
+itemCapacity: 10
+consumes: {
+  power: 18
+  liquid: cryofluid/0.4
+  item: catalyzed-neutronium/1
+  ]
+}
