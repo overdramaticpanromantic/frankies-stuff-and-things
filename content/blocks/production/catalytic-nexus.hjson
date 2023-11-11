@@ -16,7 +16,7 @@ itemCapacity: 10
 consumes: {
   power: 18
   liquid: slag/0.4
-  item: catalyzed-neutronium
+  item: stabilized-neutronium
 }
 hasLiquids: true
 outputItem: catalyzed-neutronium/1
