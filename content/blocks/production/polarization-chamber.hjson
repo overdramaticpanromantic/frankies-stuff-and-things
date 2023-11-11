@@ -16,7 +16,7 @@ itemCapacity: 10
 consumes: {
   power: 18
   liquid: cryofluid/0.4
-  item: catalyzed-neutronium/1
+  item: catalyzed-neutronium
 }
 hasLiquids: true
 outputItem: polarized-neutronium/1
