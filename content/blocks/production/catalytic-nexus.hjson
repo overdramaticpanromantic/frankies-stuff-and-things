@@ -1,0 +1,41 @@
+name: Catalytic Nexus
+category: crafting
+type: GenericCrafter
+size: 3
+health: 650
+requirements: [
+  copper/350
+  graphite/300
+  silicon/275
+  thorium/200
+  phase-fabric/125
+]
+ambientSound: combustion
+ambientSoundVolume: 0.06
+itemCapacity: 10
+consumes: {
+  power: 18
+  liquid: slag/0.4
+  item: catalyzed-neutronium
+}
+hasLiquids: true
+outputItem: catalyzed-neutronium/1
+craftTime: 120
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 4
+      drawLiquid: slag
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
