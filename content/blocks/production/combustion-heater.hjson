@@ -21,3 +21,4 @@ consumes: {
 }
 hasLiquids: true
 craftTime: 60
+hiddenOnPlanets: serpulo
