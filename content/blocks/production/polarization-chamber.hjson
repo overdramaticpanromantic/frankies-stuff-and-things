@@ -1,6 +1,6 @@
 name: Polarization Chamber
 category: crafting
-type: ImpactReactor
+type: GenericCrafter
 size: 3
 health: 650
 requirements: [
@@ -10,16 +10,32 @@ requirements: [
   plastanium/150
   surge-alloy/125
 ]
-powerProduction: 0
-itemDuration: 120
 ambientSound: pulse
 ambientSoundVolume: 0.06
 itemCapacity: 10
 consumes: {
   power: 18
   liquid: cryofluid/0.4
-  item: catalyzed-neutronium
+  item: catalyzed-neutronium/1
 }
 hasLiquids: true
-outputItem: polarized-neutronium
+outputItem: polarized-neutronium/1
 craftTime: 120
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPlasma
+      suffix: -plasma-
+      plasmas: 4
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
