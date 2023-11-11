@@ -19,7 +19,6 @@ consumes: {
   power: 18
   liquid: cryofluid/0.4
   item: catalyzed-neutronium/1
-  ]
 }
 hasLiquids: true
 outputItem: polarized-neutronium/1
