@@ -21,3 +21,6 @@ consumes: {
   item: catalyzed-neutronium/1
   ]
 }
+hasLiquids: true
+outputItem: polarized-neutronium/1
+craftTime: 120
